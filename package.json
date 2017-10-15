@@ -1,0 +1,30 @@
+{
+  "name": "frontendtest",
+  "version": "1.0.0",
+  "description": "Zadatak 1 iz Frontend testa prijave za posao.",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisbaric7/FrontendTest.git"
+  },
+  "author": "Boris Barić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borisbaric7/FrontendTest/issues"
+  },
+  "homepage": "https://github.com/borisbaric7/FrontendTest#readme"
+}
