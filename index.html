@@ -96,13 +96,13 @@
 	<div class="formContainer">
 		<div class="form">
 			<p class="form__heading">Contact Form</p>
-			<form class="form__fields" id="contact-form" action="#" method="POST" enctype="multipart/form-data">
+			<form class="form__fields" id="contact-form">
 					<label class="form__label" for="name">Contact name</label>
-					<input class="form__input" id="name" class="input" name="name" type="text" value="" size="30" />
+					<input class="form__input" id="name" onblur="checkName(this)" class="input" name="name" type="text" value="" size="30" required />
 					<label class="form__label" for="email">Email address</label>
-					<input class="form__input"id="email" class="input" name="email" type="text" value="" size="30" />
+					<input class="form__input" id="email" onblur="checkEmail(this)" class="input" name="email" type="text" value="" size="30" required />
 					<label class="form__label" for="message">Message</label>
-					<textarea class="form__textarea" id="message" class="input" name="message" rows="7" cols="30"></textarea>
+					<textarea class="form__textarea" id="message" class="input" name="message" rows="7" cols="30" required></textarea>
 					<input class="form__input--submit" id="submit_button" type="submit" value="Send email" />
 			</form>						
 		</div>
@@ -114,7 +114,8 @@
 			<p class="footer__developer">By Frontend Developer</p>
 		</div>
 	</footer>
-
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="dist/js/main.min.js"></script>
 </body>
 </html>

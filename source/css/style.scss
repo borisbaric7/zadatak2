@@ -269,11 +269,17 @@ img {
 	display: flex;
 	flex-direction:column;
 }
-.form__label, .form__input, .form__textarea, .form__input--submit {
+.form__label, .form__input, .form__input--submit {
 	flex:1;
 	width: 100%;
 	font-family: Roboto, sans-serif;
 	font-size: 22px;
+}
+.form__textarea {
+	width: 100%;
+	font-family: Roboto, sans-serif;
+	font-size: 22px;
+	resize:none;
 }
 
 .form__input, .form__textarea {
@@ -313,6 +319,9 @@ footer {
 .footer__developer {
 	flex:1;
 	text-align: center;
+}
+.has-error {
+	border: 2px solid red;
 }
 
 /* Media queries */
